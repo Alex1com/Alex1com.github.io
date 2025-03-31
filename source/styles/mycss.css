@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Tektur&display=swap");
+
+body,
+.btn-outline-primary {
+    font-family: Tektur, serif;
+    background: linear-gradient(90deg, #0b15a1 0%, #000000 100%);
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(127, 255, 212);
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-toggler {
+    background-color: rgb(118, 118, 118);
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(180deg, #091079 0%, #04032e 100%);
+    border: solid;
+    border-width: 0.5px;
+    border-color: black;
+    
+}
+
+.card {
+    background: linear-gradient(90deg, #091079 0%, #04032e 100%);
+    color: aquamarine;
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+} 
+
+.slide-text,
+.footer-text {
+    color: aquamarine;
+    margin:auto auto;
+}
+
+.call-anim {
+    animation: Call 1.5s ease 0s infinite normal forwards;
+}
+
+@keyframes Call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+.conteiner-fluid-1 {
+    margin: 1em;
+    padding: 1%;
+    font-family: serif;
+    background-color: rgba(0, 0, 0, 0.632);
+    font-size: 1em;
+}
+
+.call {
+    display: flex;
+}
+.call>p {
+    margin: 1em;
+    padding: 1em;
+    color: aquamarine;
+}
